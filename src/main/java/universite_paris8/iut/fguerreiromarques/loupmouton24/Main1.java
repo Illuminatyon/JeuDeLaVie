@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Main1 extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main1.class.getResource("vueDebutTP2.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main1.class.getResource("Vue2.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1500, 800);
         stage.setTitle("LoupMouton");
         stage.setScene(scene);
